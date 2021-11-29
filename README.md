@@ -13,7 +13,7 @@ Please refer to the provided document for the code challenge requirements.
 2° - Code be simple to test
 
 # Question:
-If would be possible to have only one endpoint to get all the beers temperatures?
+If would be possible to have only one endpoint to get all the beers temperatures.
 
 # Solution:
 First of all, got rid off fontend doing mulple requests. Frontend makes only one request and the backend looks for the temperatures of each beer. But there is a problem, each request takes at least 2 seconds. 
